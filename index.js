@@ -1,24 +1,24 @@
-// Import the functions you need from the SDKs you need
-import { initializeApp } from "firebase/app";
-import { getAnalytics } from "firebase/analytics";
-// TODO: Add SDKs for Firebase products that you want to use
-// https://firebase.google.com/docs/web/setup#available-libraries
+// // Import the functions you need from the SDKs you need
+// import { initializeApp } from "firebase/app";
+// import { getAnalytics } from "firebase/analytics";
+// // TODO: Add SDKs for Firebase products that you want to use
+// // https://firebase.google.com/docs/web/setup#available-libraries
 
-// Your web app's Firebase configuration
-// For Firebase JS SDK v7.20.0 and later, measurementId is optional
-const firebaseConfig = {
-  apiKey: "AIzaSyA9DyK7LSGE5GDfONYTVveyRYNPRi7532E",
-  authDomain: "api-deploy-dfbfd.firebaseapp.com",
-  projectId: "api-deploy-dfbfd",
-  storageBucket: "api-deploy-dfbfd.appspot.com",
-  messagingSenderId: "800325134475",
-  appId: "1:800325134475:web:36b239503e5510f75d0c8e",
-  measurementId: "G-335ZGRXVY4",
-};
+// // Your web app's Firebase configuration
+// // For Firebase JS SDK v7.20.0 and later, measurementId is optional
+// const firebaseConfig = {
+//   apiKey: "AIzaSyA9DyK7LSGE5GDfONYTVveyRYNPRi7532E",
+//   authDomain: "api-deploy-dfbfd.firebaseapp.com",
+//   projectId: "api-deploy-dfbfd",
+//   storageBucket: "api-deploy-dfbfd.appspot.com",
+//   messagingSenderId: "800325134475",
+//   appId: "1:800325134475:web:36b239503e5510f75d0c8e",
+//   measurementId: "G-335ZGRXVY4",
+// };
 
 // Initialize Firebase
-const app = initializeApp(firebaseConfig);
-const analytics = getAnalytics(app);
+//const app = initializeApp(firebaseConfig);
+//const analytics = getAnalytics(app);
 
 const express = require("express");
 const app = express();
